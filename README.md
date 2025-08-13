@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next_Blog_X – Full Stack Blog App with Next.js, MongoDB & Tailwind CSS
 
-## Getting Started
+Next_Blog_X is a modern, full-featured blog platform built with Next.js, MongoDB, and Tailwind CSS. It delivers a seamless experience for readers to browse blog posts and provides a secure admin dashboard for content management.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- **Next.js App Router** for optimized routing and performance  
+- **Tailwind CSS** for rapid and responsive UI styling  
+- RESTful backend implemented with **Next.js API Routes**  
+- Persistent data storage using **MongoDB** and **Mongoose**  
+- **JWT-based authentication** securing admin-only CRUD operations  
+- Dynamic routing to render individual blog posts  
+- Fully responsive design, ensuring smooth experience on mobile and desktop  
+- Hosted and deployed via **Vercel** with cloud database managed by **MongoDB Atlas**
+
+---
+
+## 🧩 Tech Stack
+
+| Layer          | Technology                  |
+| -------------- | ---------------------------|
+| Frontend       | Next.js + Tailwind CSS      |
+| Backend        | Next.js API Routes (REST)   |
+| Database       | MongoDB + Mongoose          |
+| Authentication | JSON Web Tokens (JWT)       |
+| Hosting        | Vercel + MongoDB Atlas      |
+
+---
+
+## 🗂 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+/app               # Next.js App Router pages and routes
+/components        # Reusable UI components
+/models            # Mongoose schema definitions
+/pages/api         # API route handlers (CRUD endpoints)
+/utils             # Utility modules (DB connection, JWT handling)
+/public            # Static assets (images, favicon, etc.)
+/styles            # Global and Tailwind CSS customizations
+.env               # Environment variables (excluded from version control)
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<img width="1802" height="864" alt="Screenshot 2025-08-08 012444" src="https://github.com/user-attachments/assets/3a7314a8-465f-471d-b017-a97bd379a5f0" />
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<img width="1881" height="666" alt="Screenshot 2025-08-08 012427" src="https://github.com/user-attachments/assets/23f6ee50-fecc-4901-bfd3-80051f3d7717" />
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+<img width="1918" height="889" alt="Screenshot 2025-08-08 012351" src="https://github.com/user-attachments/assets/a07d8bd4-04d3-4619-90ba-d93cd4e04203" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
